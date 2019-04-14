@@ -1,0 +1,223 @@
+/* Global */
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  border-left: 0;
+  font-family: "Montserrat", sans-serif;
+}
+/* Opacity */
+.opacity-8 {
+  opacity: 0.85;
+}
+/* Background Colors */
+.bg-rock {
+  background-image: linear-gradient(to bottom right, #434343, #000000);
+}
+.bg-peach {
+  background-image: linear-gradient(to bottom right, #ff758c, #ff7eb3);
+}
+.bg-blue {
+  background-image: linear-gradient(to bottom right, #89f7fe, #66a6ff);
+}
+.bg-black {
+  background-color: #000000;
+}
+.bg-dwight {
+  background-color: #00b2e1ff;
+}
+.bg-contact {
+  background-image: url("/img/contact/globe.jpg");
+  background-color: #000000;
+}
+
+/* Font */
+.font-dwight {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Text Colors */
+.text-black {
+  color: #000000;
+}
+.text-link {
+  color: #ffffff;
+}
+.text-link:hover {
+  color: #00b2e1ff;
+  transition-duration: 0.6s;
+}
+.text-dwight {
+  color: #000000;
+}
+.text-dwight:hover {
+  color: #00b2e1ff;
+  transition-duration: 0.6s;
+}
+
+/* Social Media */
+.text-insta {
+  color: #ffffff;
+}
+.text-insta:hover {
+  color: #ff006a;
+  transition-duration: 0.6s;
+}
+.text-yt {
+  color: #ffffff;
+}
+.text-yt:hover {
+  color: #cf0728;
+  transition-duration: 0.6s;
+}
+.text-fb {
+  color: #ffffff;
+}
+.text-fb:hover {
+  color: #003879;
+  transition-duration: 0.6s;
+}
+.text-snap {
+  color: #ffffff;
+}
+.text-snap:hover {
+  color: #fffc00;
+  transition-duration: 0.6s;
+}
+.text-medium {
+  color: #ffffff;
+}
+.text-medium:hover {
+  color: #00b144;
+  transition-duration: 0.6s;
+}
+.text-podcast {
+  color: #ffffff;
+}
+.text-podcast:hover {
+  color: #ffa600;
+  transition-duration: 0.6s;
+}
+
+/* Border Width */
+.border-0 {
+  border-width: 0em;
+}
+
+/* Buttons */
+.btn-dwight {
+  border-width: 1px;
+  border-color: #00b2e1ff;
+  background-color: #00b2e1ff;
+  color: #ffffff;
+}
+.btn-dwight:hover {
+  border-width: 1px;
+  border-color: rgb(0, 161, 206);
+  background-color: rgb(0, 161, 206);
+  color: #ffffff;
+}
+.btn-outline-dwight {
+  border-width: 1px;
+  border-color: #00b2e1ff;
+  background-color: transparent;
+  color: #00b2e1ff;
+}
+.btn-outline-dwight:hover {
+  background-color: #00b2e1ff;
+  color: #ffffff;
+  transition-duration: 0.5s;
+}
+
+.img-clients {
+  filter: grayscale(100%);
+}
+.img-clients:hover {
+  filter: grayscale(0%);
+  transition-duration: 0.6s;
+}
+
+/* Video Header */
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
+      no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+/* Full Page Image Header */
+.aboutmasthead {
+  height: 50vh;
+  min-height: 300px;
+  background-image: url("/img/masthead/about.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header {
+  height: 75vh;
+  min-height: 500px;
+  background-image: url("/img/masthead/header.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.iscofmasthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("/img/masthead/iscof1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.projectmasthead {
+  height: 50vh;
+  min-height: 500px;
+  background-image: url("/img/project619/header.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
